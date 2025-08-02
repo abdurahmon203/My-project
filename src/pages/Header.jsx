@@ -35,7 +35,7 @@ function Header( {toggleTheme} ) {
 
         <div className="flex items-center gap-4">
           <div className="relative">
-            <CustomSelect toggleTheme={toggleTheme} />
+            <CustomSelect />
             <div className="pointer-events-none absolute top-1/2 right-2 transform -translate-y-1/2 text-gray-400">
               <svg
                 className="w-4 h-4"
@@ -95,7 +95,7 @@ function Header( {toggleTheme} ) {
           >
             {t("signup")}
           </Link>
-          <SwitchComponent /> 
+          <SwitchComponent toggleTheme={toggleTheme} /> 
         </div>
       )}
     </>
