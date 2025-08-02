@@ -24,7 +24,7 @@ function Home() {
               {t("browse_jobs")}
             </a>
             <a
-              href="/post-job"
+              href="/jobs"
               className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition"
             >
               {t("post_a_job")}
@@ -130,10 +130,10 @@ function Home() {
         </h2>
         <p className="text-blue-200 mb-8 max-w-xl mx-auto">{t("join_today")}</p>
         <a
-          href="login"
+          href="jobs"
           className="inline-block px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition"
         >
-          {t("sign_up_now")}
+          {t("getstarted")}
         </a>
       </section>
     </div>

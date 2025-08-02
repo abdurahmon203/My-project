@@ -16,7 +16,9 @@ const ProductById = () => {
 
   const GetData = async () => {
     try {
-      const { data } = await axios.get(`https://68500eabe7c42cfd179731c9.mockapi.io/users/user2/${id}`);
+      const { data } = await axios.get(
+        `https://68500eabe7c42cfd179731c9.mockapi.io/users/user2/${id}`
+      );
       setData(data);
     } catch (error) {
       console.error(error);
@@ -87,12 +89,22 @@ const ProductById = () => {
               <Typography variant="body1" color="text.secondary" sx={{ mb: 1 }}>
                 <a
                   href={`tel:${data.phoneNumber}`}
-                  className="inline-block bg-blue-600 text-white px-4 py-1.5 rounded-md hover:bg-blue-700 transition"
+                  className="inline-block mt-[10px] bg-blue-600 text-white px-4 py-1.5 rounded-md hover:bg-blue-700 transition"
                 >
                   📞 Have Call
                 </a>
               </Typography>
-
+              <Typography
+                variant="h6"
+                sx={{
+                  fontWeight: "bold",
+                  mb: 2,
+                  fontSize: { xs: "18px", md: "22px" },
+                  textShadow: "1px 1px 4px rgba(0,0,0,0.3)",
+                }}
+              >
+                ⚠️ Watch out — the guy running this company could be sketchy.
+              </Typography>
             </Box>
           </Box>
         </CardContent>

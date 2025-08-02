@@ -46,5 +46,13 @@
   "enterwork": "Введите вашу работу",
   "email": "Электронная почта",
   "enteremail": "Введите ваш email",
-  "errorr": "Неверный email address"
+  "phone": "Номер телефона",
+  "enterphone": "Введите свой номер телефона",
+  "errorr": "Неверный email address",
+  "already_have_account": "Уже есть аккаунт?",
+  "getstarted": "Начать сейчас",
+  "password_error": "Пароль должен содержать не менее 6 символов",
+  "registering": "Регистрация...",
+  "logout": "Выйти",
+  "edituser": "Редактировать имя пользователя"
 }

@@ -46,5 +46,13 @@
   "enterwork": "Enter your work",
   "email": "Email",
   "enteremail": "Enter your email",
-  "errorr": "Invalid email address"
+  "phone": "Phone Number",
+  "enterphone": "Enter your phone number",
+  "errorr": "Invalid email address",
+  "already_have_account": "Already have an account?",
+  "getstarted": "Get Started",
+  "password_error": "Password must be at least 6 characters long",
+  "registering": "Registering...",
+  "logout": "Log Out",
+  "edituser": "Edit User Name"
 }
