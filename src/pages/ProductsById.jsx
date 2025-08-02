@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Api } from "../config/api";
 import { useParams } from "react-router-dom";
 import {
   Box,
@@ -17,7 +16,7 @@ const ProductById = () => {
 
   const GetData = async () => {
     try {
-      const { data } = await axios.get(`${Api}/${id}`);
+      const { data } = await axios.get(`https://68500eabe7c42cfd179731c9.mockapi.io/users/user2/${id}`);
       setData(data);
     } catch (error) {
       console.error(error);
