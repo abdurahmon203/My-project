@@ -1,0 +1,1 @@
+export let Api = "https://68500eabe7c42cfd179731c9.mockapi.io/users/user2";
